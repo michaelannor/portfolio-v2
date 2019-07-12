@@ -28,7 +28,21 @@ li {
 
 }
 
+.highlight-text {
 
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.faux-link {
+    
+}
+
+.logo-text {
+    
+}
 
 .text-label {
 
