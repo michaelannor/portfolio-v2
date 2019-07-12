@@ -1,19 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
 
 * {
     font-family: 'Rubik', sans-serif;
 }
 
-h1 {
+h1, h2, p {
+    color: #1A1919;
+}
 
+h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
 }
 
 h2 {
-
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
 }
 
-p {
-
+p, a, li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
 }
 
 a {
@@ -29,15 +39,30 @@ li {
 }
 
 .highlight-text {
+    font-style: normal;
+    border-radius: 1em 0 1em 0;
+    text-shadow: 1px 1px 1px #fff;
+    background-image: 
+      linear-gradient(-100deg, 
+        rgba(255,250,150,0.15),
+        rgba(255,250,150,0.8) 100%, 
+        rgba(255,250,150,0.25)
+      );
+}
 
+.two-columns {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
 }
 
 .no-bullet {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .faux-link {
-    
+
 }
 
 .logo-text {
