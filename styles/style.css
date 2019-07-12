@@ -61,6 +61,11 @@ li {
     padding-left: 0;
 }
 
+.logo-icon {
+    width: 55px;
+    height: auto;
+}
+
 .faux-link {
 
 }
