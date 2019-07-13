@@ -62,6 +62,14 @@ hr {
       ); */
 }
 
+.email-icon {
+    display: none;
+}
+
+.email-text {
+
+}
+
 .skills-list {
         columns: 2;
         -webkit-columns: 2;
@@ -165,7 +173,7 @@ hr {
 .works-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     gap: 20px;
 }
 
@@ -235,3 +243,64 @@ hr {
     display: inline-block;
     width: 100%;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.email-icon {
+    display: inline;
+}
+
+.email-text {
+    display: none;
+}
+
+.show-hide-control {
+    display: inherit;
+}
+
+.collapse-on-mobile {
+    display: none;
+}
+
+.skills-list {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+}
+
+.footer {
+    /* display: none; */
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: start;
+    gap: 10px;
+
+    grid-template-columns: 1fr;
+}
+
+.contact-cta {
+    justify-self: start;
+}
+
+
+.writing-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.work-half {
+    grid-column: span 2;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 20px;
+}
+
+} 
