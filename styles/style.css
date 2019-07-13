@@ -42,6 +42,7 @@ li {
 hr {
     opacity: 0.2;
     border: .5px solid #979797;
+    
 }
 
 .highlight-text {
@@ -86,7 +87,9 @@ hr {
 }
 
 .logo-text {
-    
+    /* font-family: Rubik-Light; */
+    /* font-size: 25px; */
+    /* color: #1A1919; */
 }
 
 .page {
@@ -220,4 +223,15 @@ hr {
 
 .blue-text {
     color: #005CC7;
+}
+
+.playlist-groups {
+    max-width: 680px;
+    columns: 2 auto;
+    column-gap: 20px;
+}
+
+.playlist-group {
+    display: inline-block;
+    width: 100%;
 }
