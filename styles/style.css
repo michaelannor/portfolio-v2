@@ -48,6 +48,7 @@ hr {
     color: #005CC7;
 
     background: #FEF1A8;
+    padding: 0px 5px;
 
     font-style: normal;
     /* border-radius: 1em 0 1em 0; */
@@ -105,23 +106,52 @@ hr {
 }
 
 .case-study-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
+.case-study-list-item {
+    height: 338px; /* hmw replace pixels? */
 }
 
 .work-full {
-
+    grid-column: span 2;
 }
 
 .work-half {
-
+    grid-column: span 1;
 }
 
 .works-grid {
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .work-grid-item {
+    height: 220px; /* hmw replace pixels? */
+}
 
+.writing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.wiritng-medium-link {
+    grid-column: span 1;
+    height: 275px; /* hmw replace pixels? */
+}
+
+.writings-list-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.writings-list-item {
+    grid-column: 2 / span 1;
 }
 
 .blue-bg {
@@ -138,6 +168,14 @@ hr {
 
 .beige-bg {
     background: #F6F1E4;
+}
+
+.mauve-bg {
+    background: #DFD8E3;
+}
+
+.grey-bg {
+    background: #F0F0EE;
 }
 
 .black-text {
