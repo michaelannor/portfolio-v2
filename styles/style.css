@@ -159,7 +159,8 @@ hr {
 }
 
 .case-study-list-item {
-    height: 338px; /* hmw replace pixels? */
+    height: 338px; /* hmw replace pixels? */ 
+    /* give image specific height and replace this height with 100% or auto */
 }
 
 .work-full {
@@ -242,6 +243,30 @@ hr {
 .playlist-group {
     display: inline-block;
     width: 100%;
+}
+
+.anchor-marker {
+    /* color: #005CC7; */
+    background: #FEF1A8;
+    position: absolute;
+    top: 16px;
+    left: -50px;
+    padding: 3px 22px 3px 12px;
+}
+
+.playlist-group .anchor-marker {
+    top: 36px;
+}
+
+
+.anchor-text {
+    /* display: inline-block; */
+    /* position: relative; */
+    /* right: 50px; */
+}
+
+.page-anchor {
+        position: relative;
 }
 
 
