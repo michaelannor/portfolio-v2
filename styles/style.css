@@ -306,6 +306,11 @@ hr {
     display: inline;
 }
 
+.icon-highlight {
+    padding: 5px 10px;
+    text-shadow: none;
+}
+
 .email-text {
     display: none;
 }
