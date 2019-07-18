@@ -189,6 +189,24 @@ hr {
 .case-study-list-item {
     height: 338px; /* hmw replace pixels? */ 
     /* give image specific height and replace this height with 100% or auto */
+    display: grid;
+}
+
+.case-study-list-item-content-full {
+    /* justify-self: end; */
+    /* align-self: end; */
+    margin: 40px;
+}
+
+.case-study-list-item-content-half {
+    justify-self: start;
+    align-self: end;
+    margin: 40px;
+}
+
+.case-study-full-span {
+    /* display: grid; */
+    /* grid-template-columns: 1f 1fr; */
 }
 
 .work-full {
@@ -219,6 +237,24 @@ hr {
 .wiritng-medium-link {
     grid-column: span 1;
     height: 275px; /* hmw replace pixels? */
+    position: relative;
+    padding: 40px;
+}
+
+.wiritng-medium-icon {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px;
+    grid-gap: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.wiritng-medium-icon p {
+    /* display: inline-block; */
+    /* padding-right: 20px; */
+    align-self: center;
 }
 
 .writings-list-grid {
