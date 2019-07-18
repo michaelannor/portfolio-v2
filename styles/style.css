@@ -322,6 +322,10 @@ hr {
     top: 28px;
 }
 
+.case-study-overview {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
 
 .anchor-text {
     /* display: inline-block; */
