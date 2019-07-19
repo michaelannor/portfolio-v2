@@ -337,6 +337,17 @@ hr {
     top: 5px;
 }
 
+.anchor-marker-h2 {
+    background: #FEF1A8;
+    padding: 3px 22px 3px 12px;
+    position: absolute;   
+    left: -50px;
+    /* firefox: */
+    /* top: 28px; */
+    /* chrome: */
+    top: 14px;
+}
+
 .playlist-group .anchor-marker {
     top: 28px;
 }
