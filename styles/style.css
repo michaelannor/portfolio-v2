@@ -97,6 +97,10 @@ hr {
     
 }
 
+.bold-text {
+    font-weight: 500;
+}
+
 .gap-20 {
     margin: 0px;
     padding-top: 20px;
