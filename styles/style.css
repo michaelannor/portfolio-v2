@@ -57,6 +57,14 @@ text-decoration: none;
 color: #005CC7;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited { 
+    /* color: inherit; */
+}
+
 ul {
 
 }
@@ -133,6 +141,7 @@ hr {
     /* font-family: Rubik-Light; */
     /* font-size: 25px; */
     /* color: #1A1919; */
+    /* color: #005CC7; */
 }
 
 .page {
@@ -215,6 +224,8 @@ hr {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: auto auto;
+    text-decoration-color: #1A1919 !important;
+    /* important to overide anchor colour */
 }
 
 .vertical-center-grid-item {
@@ -225,7 +236,7 @@ hr {
 .case-study-title-text:hover {
     opacity: .9;
     /* color: #D7EFEE; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .case-study-photo {
@@ -285,6 +296,8 @@ hr {
     justify-self: start;
     align-self: end;
     margin: 40px;
+    text-decoration-color: #1A1919 !important;
+    /* important to overide anchor colour */
 }
 
 .case-study-full-span {
