@@ -53,12 +53,30 @@ h3 {
 }
 
 a {
-text-decoration: none;
-color: #005CC7;
+    text-decoration: none;
+    color: #005CC7;
 }
 
 a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+a:hover .peach-text-link {
+    background: #cf43022a;
+    /* padding: 0px 5px; */
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+
+a:hover .teal-text-link {
+    background: #2fa8a438;
+    /* padding: 0px 5px; */
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+
+a:hover .blue-text-link {
+    background: #0763cc33;
+    /* padding: 0px 5px; */
+    /* text-shadow: 1px 1px 1px #fff; */
 }
 
 a:visited { 
@@ -392,6 +410,10 @@ hr {
 
 .blue-text {
     color: #005CC7;
+}
+
+.blue-text:hover {
+     text-decoration: underline;
 }
 
 .playlist-groups {
