@@ -79,6 +79,18 @@ a:hover .blue-text-link {
     /* text-shadow: 1px 1px 1px #fff; */
 }
 
+a:hover .mauve-text-link {
+    background: #42334b27;
+    /* padding: 0px 5px; */
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+
+a:hover .beige-text-link {
+    background: #4e422023;
+    /* padding: 0px 5px; */
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+
 a:visited { 
     /* color: inherit; */
 }
