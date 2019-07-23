@@ -131,6 +131,10 @@ hr {
 
 }
 
+.work-grid-item img {
+    height: 100%;
+}
+
 .skills-list {
         columns: 2;
         -webkit-columns: 2;
