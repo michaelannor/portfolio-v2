@@ -437,6 +437,18 @@ hr {
      text-decoration: underline;
 }
 
+/* show external link icon only on hover */
+.blue-text:hover .show-on-hover {
+    display: inline;
+}
+
+/* hide external link icon until hover */
+.blue-text .show-on-hover {
+    color: #005CC7;
+    display: none;
+}
+
+
 .playlist-groups {
     max-width: 680px;
     columns: 2 auto;
