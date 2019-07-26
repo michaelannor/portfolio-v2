@@ -444,7 +444,8 @@ hr {
 
 /* hide external link icon until hover */
 .blue-text .show-on-hover {
-    color: #005CC7;
+    /* color: #005CC7; */
+    color: #99A5B1;
     display: none;
 }
 
