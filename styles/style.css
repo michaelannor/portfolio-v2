@@ -553,6 +553,14 @@ hr {
     width: 50%;
 }
 
+.three-fourths-fill-container {
+    width: 75%;
+}
+
+.nine-tenth-fill-container {
+    width: 90%;
+}
+
 .quote-block {
     display: grid;
     grid-template-columns: auto 1fr;
