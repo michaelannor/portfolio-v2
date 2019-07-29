@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
 
 * {
     font-family: 'Rubik', sans-serif;
@@ -111,6 +111,22 @@ hr {
 
 .bold-text {
     font-weight: 500;
+}
+
+.quote-italics {
+    /* font-style: italic; */
+    font-size: 17px;
+    max-width: 500px;
+    line-height: 26px;
+    font-weight: 300;
+    padding-top: 7px;
+}
+
+.quote-symbol {
+    font-size: 30px;
+    color: #979797;
+    /* color: #FEF1A8; */
+    opacity: .5;
 }
 
 .gap-20 {
@@ -537,6 +553,11 @@ hr {
     width: 50%;
 }
 
+.quote-block {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
