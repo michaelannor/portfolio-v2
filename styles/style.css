@@ -213,7 +213,7 @@ hr {
     padding: 10px;
 }
 
-.page > p, h1, ul {
+.page > p, h1, ul, ol {
     max-width: 680px;
 
 }
