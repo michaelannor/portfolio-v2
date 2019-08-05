@@ -366,6 +366,10 @@ hr {
     /* grid-template-columns: 1f 1fr; */
 }
 
+.case-study-half {
+    max-width: 580px;
+}
+
 .work-full {
     grid-column: span 2;
 }
