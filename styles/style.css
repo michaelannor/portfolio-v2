@@ -592,7 +592,7 @@ hr {
 }
 
 .collapse-on-mobile {
-    display: none;
+    /* display: none; */
 }
 
 .skills-list {
